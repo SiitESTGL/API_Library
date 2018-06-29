@@ -1,2 +1,2 @@
 # API_Library
-Library to interface with our API
+This is a library developed to interface with our API in our SIIT project.
