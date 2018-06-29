@@ -1,21 +1,4 @@
-"""try:
-    from urllib.request import urlopen
-except:
-    from urllib2 import urlopen
-"""
 import requests
-
-"""def check_host(host):
-    """ """Helper function to get the hostname in desired format""" """
-    if not ('http' in host and '//' in host) and host[len(host)-1] == '/':
-        return ''.join(['http://', host[:len(host)-1]])
-    elif not ('http' in host and '//' in host):
-        return ''.join(['http://', host])
-    elif host[len(host)-1] == '/':
-        return host[:len(host)-1]
-    else:
-        return host
-    """
 
 def request(url):
     r=requests.get(url)
